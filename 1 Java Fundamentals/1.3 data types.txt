@@ -1,0 +1,13 @@
+Data Types
+Primitive Data Types:
+Type	   Size	   Default Value
+byte	  1 byte	   0
+short	  2 bytes	   0
+int	      4 bytes	   0
+long	  8 bytes	   0L
+float  	  4 bytes	  0.0f
+double	  8 bytes	  0.0d
+char	  2 bytes	'\u0000'
+boolean	  1 bit	     false
+
+Non-Primitive (Reference) Types: String, Arrays, Classes, Objects.
