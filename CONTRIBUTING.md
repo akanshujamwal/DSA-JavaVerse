@@ -73,7 +73,7 @@ git push origin feature/your-feature-name
 
 ## Recognition
 Contributors will be listed in the Contributors Section of the README.
-Your GitHub profile will also appear under the project’s contributors list automatically once your PR is merged. 🚀
+Your GitHub profile will also appear under the project’s contributors list automatically once your PR is merged. 
 
 ## Need Help?
 If you get stuck:
