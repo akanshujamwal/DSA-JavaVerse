@@ -1,0 +1,98 @@
+1. What is Programming?
+Definition: Programming is like writing a recipe for a computer.
+Just like a recipe tells a cook step-by-step what to do, a program tells a computer step-by-step how to solve a problem.
+In Java, we write these instructions using the Java programming language.
+
+Example:
+Recipe: Take 2 cups of milk + add sugar + boil → You get tea ☕
+Program: Take 2 numbers + add them + show result → You get the answer.
+
+
+2. Types of Programming Languages
+Programming languages are like different spoken languages (English, Hindi, French).
+Computers only understand 0s and 1s, so we need languages to “talk” to them.
+
+(a) Low-Level Languages
+Close to machine (hard for humans).
+Example: Writing instructions in 0s and 1s (like 101010).
+
+(b) High-Level Languages
+Easy for humans, closer to English.
+Example: Java, Python, C++.
+You write in English-like sentences, and the computer translates them.
+
+Now, Inside High-Level Languages → Different Programming Paradigms (Styles)
+Think of it like cooking styles:
+All are part of "cooking" (high-level), but you can cook Indian, Italian, Chinese.
+Similarly, programming has different styles/paradigms:
+2.1 Procedural Languages
+Follow a step-by-step procedure.
+Think of it like following a cooking recipe strictly.
+Example: In C language, you write procedures (called functions) to perform tasks.
+
+2.2 Functional Languages
+Focus on functions (like in mathematics).
+If you give the same input, you always get the same output.
+Example: If you put 2 + 3, you always get 5.
+Languages: Haskell, Scala.
+Real-life analogy: A vending machine – you insert money + select item → always get the same snack.
+
+2.3 Object-Oriented Languages (Java belongs here 🎯)
+Based on objects (things from the real world).
+Object = real-world entity (car, student, book).
+Object has properties (color, name, price) and actions (drive, study, open).
+Java is OOP (Object-Oriented Programming).
+Example:
+Object: Car
+Properties → color = red, speed = 120km/h
+Actions → drive(), stop(), honk()
+
+3. Different Languages Can Be of Different Types
+Some languages can be both procedural and object-oriented.
+Example: Python → It supports procedural programming and OOP.
+Java → Mostly object-oriented, but can also do procedural style.
+
+4. Static vs Dynamic Languages
+Static Language (like Java, C, C++)
+You must declare the type of data before using it.
+Example: int age = 25; (You told Java “age” will only store whole numbers).
+Safer but more strict.
+
+Dynamic Language (like Python, JavaScript)
+No need to declare type.
+Example: age = 25 → later you can change age = "twenty-five".
+More flexible, but can cause errors.
+Analogy:
+Static → Like school uniforms (strict, same dress code).
+Dynamic → Like casual wear (free, but can create confusion).
+
+5. Errors in Static Language (Java)
+Syntax Errors → Wrong grammar of language.
+Example: Missing semicolon ; in Java.
+Type Errors → Using wrong type.
+Example: int age = "twenty"; ❌ (Java expects a number, not text).
+Runtime Errors → Mistakes when program is running.
+Example: Dividing by zero.
+
+6. Stack and Heap Memory (Java Memory Management)
+When Java runs a program, it manages memory in 2 areas:
+Stack Memory:
+Stores temporary data like method calls, local variables.
+Think of it as a notebook page you use while solving a math problem.
+
+Heap Memory:
+Stores objects (like Car, Student).
+Think of it as a cupboard where you keep all your things (objects) safely.
+
+7. Objects and Reference Variables
+Object: Real-world entity created in Java.
+Reference Variable: Like a remote control to access the object.
+Example:
+Car myCar = new Car();
+myCar = reference variable (remote control).
+new Car() = actual object stored in heap memory.
+
+8. Garbage Collection (Java Feature)
+In real life, when you don’t use old clothes, you throw them away.
+Similarly, in Java, when an object is no longer used, the Garbage Collector (GC) automatically removes it from memory.
+You don’t have to manually delete objects (unlike C/C++).
