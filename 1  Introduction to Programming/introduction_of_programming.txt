@@ -4,7 +4,7 @@ Just like a recipe tells a cook step-by-step what to do, a program tells a compu
 In Java, we write these instructions using the Java programming language.
 
 Example:
-Recipe: Take 2 cups of milk + add sugar + boil → You get tea ☕
+Recipe: Take 2 cups of milk + add sugar + boil → You get tea 
 Program: Take 2 numbers + add them + show result → You get the answer.
 
 
@@ -37,7 +37,7 @@ Example: If you put 2 + 3, you always get 5.
 Languages: Haskell, Scala.
 Real-life analogy: A vending machine – you insert money + select item → always get the same snack.
 
-2.3 Object-Oriented Languages (Java belongs here 🎯)
+2.3 Object-Oriented Languages (Java belongs here )
 Based on objects (things from the real world).
 Object = real-world entity (car, student, book).
 Object has properties (color, name, price) and actions (drive, study, open).
@@ -70,7 +70,7 @@ Dynamic → Like casual wear (free, but can create confusion).
 Syntax Errors → Wrong grammar of language.
 Example: Missing semicolon ; in Java.
 Type Errors → Using wrong type.
-Example: int age = "twenty"; ❌ (Java expects a number, not text).
+Example: int age = "twenty"; (Java expects a number, not text).
 Runtime Errors → Mistakes when program is running.
 Example: Dividing by zero.
 
