@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Find_max_in_3_numbers {
+public class FindMaxNumber {
    public static void main(String[] arg){
     Scanner input = new Scanner(System.in);
     System.out.println("enter 3 numbers: ");

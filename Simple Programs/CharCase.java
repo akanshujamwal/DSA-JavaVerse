@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Char_case {
+public class CharCase {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a character: ");
@@ -15,6 +15,7 @@ public class Char_case {
             System.out.println(ch + " is not an alphabet");
         }
         input.close();
+
 
     }
 }
