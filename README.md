@@ -15,7 +15,7 @@ This repository is designed for:
 
 Our goal is to create a structured and collaborative space to explore, learn, and master **Data Structures and Algorithms** in **Java**.
 
----
+
 
 ## Folder Structure
 ```bash
